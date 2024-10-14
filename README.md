@@ -15,5 +15,7 @@ AUTO ACTIVATION using BATCH SCRIPT
 1. Copy the code in "Manual Acttivation" into a new text document or Download Office.cmd
 2. Save it as a batch file. (eg. office365.cmd)
 3. Run the batch file with admin rights. (important!)
-   
-MAKE SURE TO DISABLE ANTIVIRUS 
+   diable any active antivirus
+
+
+ENJOY USING OFFICE 365
