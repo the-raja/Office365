@@ -9,9 +9,11 @@ _**MANNUAL ACTIVATION**_
 5. DONE. Enjoy using MS office 365
 6. ALL CODES ARE PROVIDED SEPERATELY FOR EASE.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 CODES :
 
-**Navigate and locate Office 365 : **
+**Navigate and locate Office 365**
 
 cd /d %ProgramFiles%\Microsoft Office\Office16
 OR 
@@ -37,6 +39,7 @@ for /f %x in ('dir /b ..\root\Licenses16\proplusvl_kms*.xrm-ms') do cscript ospp
  
  cscript ospp.vbs /act
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 _**AUTO ACTIVATION using BATCH SCRIPT**_
 1. Copy the code in "Manual Acttivation" into a new text document or Download Office.cmd
