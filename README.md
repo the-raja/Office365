@@ -25,7 +25,8 @@ for /f %x in ('dir /b ..\root\Licenses16\proplusvl_kms*.xrm-ms') do cscript ospp
 
 **Install Activation key**
    
- cscript ospp.vbs /inpkey:XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99
+'''
+cscript ospp.vbs /inpkey:XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99
  
  cscript ospp.vbs /unpkey:BTDRB >nul
  
@@ -38,6 +39,7 @@ for /f %x in ('dir /b ..\root\Licenses16\proplusvl_kms*.xrm-ms') do cscript ospp
  cscript ospp.vbs /setprt:1688
  
  cscript ospp.vbs /act
+ '''
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
