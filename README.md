@@ -19,6 +19,13 @@ cd /d %ProgramFiles%\Microsoft Office\Office16
 OR 
 cd /d %ProgramFiles(x86)%\Microsoft Office\Office16
 
+**Note for 2026 for Office365 x64:
+Step 1.2.1 
+If both commands fail on step 1.2 execute the following command and try the step 1.2 again:
+```
+xcopy "%ProgramFiles%\Microsoft Office\root\Office16\OSPP.VBS" "%ProgramFiles%\Microsoft Office\Office16\" /I /Y
+```
+
 **Convert to Volume**
 
 for /f %x in ('dir /b ..\root\Licenses16\proplusvl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
